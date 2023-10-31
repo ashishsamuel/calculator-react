@@ -37,7 +37,6 @@ function App() {
         setResult('')
       }
     }catch{
-      console.log("Invalid Expression");
       setInput('')
       setResult('Invalid Expression')
     }
