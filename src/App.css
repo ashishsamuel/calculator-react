@@ -1,0 +1,8 @@
+.btn-hoverstyle{
+    font-weight: bold !important;
+}
+
+.btn-hoverstyle:hover{
+    background-color: black !important;
+    font-weight: bold !important;
+}
