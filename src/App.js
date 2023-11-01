@@ -49,7 +49,7 @@ function App() {
         <div className='m-5'>
           <h3>Calculator</h3>
         </div>
-        <div className='bg-info border rounded mt-2 p-5'>
+        <div className='bg-info border rounded mt-2 p-3'>
             <div className='bg-dark p-3'>
                 <span className='p-2'>{input}</span>
                 {result !='' && <span>{result}</span>
