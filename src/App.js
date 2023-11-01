@@ -56,7 +56,7 @@ function App() {
                 }
             </div>
             <Row className='mt-2'>
-            <Col>
+            <Col sm={4} md={4} lg={4} xl={4}>
               <Button className='m-1 bg-danger btn-hoverstyle' variant="contained" onClick={() => getValue('C')} >C</Button>
               <Button className='m-1 bg-dark btn-hoverstyle' variant="contained" onClick={() => getValue('DEL')} >DEL</Button>
               <Button className='m-1 bg-dark btn-hoverstyle' variant="contained" onClick={() => getValue('.')} >.</Button>
@@ -64,7 +64,7 @@ function App() {
             </Col>
             </Row>
             <Row> 
-           <Col>
+           <Col sm={4} md={4} lg={4} xl={4}>
               <Button className='m-1 bg-dark btn-hoverstyle' variant="contained" onClick={() => getValue('7')} >7</Button>
               <Button className='m-1 bg-dark btn-hoverstyle' variant="contained" onClick={() => getValue('8')} >8</Button>
               <Button className='m-1 bg-dark btn-hoverstyle' variant="contained" onClick={() => getValue('9')} >9</Button>
@@ -72,7 +72,7 @@ function App() {
            </Col>
             </Row>
             <Row>
-            <Col>
+            <Col sm={4} md={4} lg={4} xl={4}>
               <Button className='m-1 bg-dark btn-hoverstyle' variant="contained" onClick={() => getValue('4')} >4</Button>
               <Button className='m-1 bg-dark btn-hoverstyle' variant="contained" onClick={() => getValue('5')} >5</Button>
               <Button className='m-1 bg-dark btn-hoverstyle' variant="contained" onClick={() => getValue('6')} >6</Button>
@@ -80,7 +80,7 @@ function App() {
             </Col>
             </Row>
             <Row>
-            <Col>
+            <Col sm={4} md={4} lg={4} xl={4}>
               <Button className='m-1 bg-dark btn-hoverstyle' variant="contained" onClick={() => getValue('1')} >1</Button>
               <Button className='m-1 bg-dark btn-hoverstyle' variant="contained" onClick={() => getValue('2')} >2</Button>
               <Button className='m-1 bg-dark btn-hoverstyle' variant="contained" onClick={() => getValue('3')} >3</Button>
@@ -89,7 +89,7 @@ function App() {
             </Row>
             <Row>
            
-              <Col>
+              <Col sm={4} md={4} lg={4} xl={4}>
                 <Button className='m-1 bg-dark btn-hoverstyle' variant="contained" onClick={() => getValue('00')} >00</Button>
                 <Button className='m-1 bg-dark btn-hoverstyle' variant="contained" onClick={() => getValue('0')} >0</Button>
                 <Button className='m-1 bg-warning btn-hoverstyle' style={{width:'140px'}} variant="contained" onClick={() => getValue('=')} >=</Button>
