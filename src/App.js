@@ -38,7 +38,7 @@ function App() {
       }
     }catch{
       setInput('')
-      setResult('Invalid Expression')
+      setResult('')
     }
     }
   return (
